@@ -1,4 +1,4 @@
-<img src="/Advent of Code.png" width="350" align="right" />
+<img src="/aoc.png" width="350" align="right" />
 
 # Advent of Code 2022
 
