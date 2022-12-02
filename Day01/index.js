@@ -1,10 +1,4 @@
-const { readFileSync } = require("fs")
-
-const syncReadFile = (filename) => {
-  const content = readFileSync(filename, "utf-8")
-  const array = content.split(/\n/)
-  return array
-}
+import syncReadFile from "../Day02/utils"
 
 let caloriesByElves = syncReadFile("./input.txt")
 let groupedElves = []

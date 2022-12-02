@@ -1,0 +1,19 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "description": "<img src=\"/advent.png\" width=\"350\" align=\"right\" />",
+  "main": "utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timDeHof/Advent-of-Code-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timDeHof/Advent-of-Code-2022/issues"
+  },
+  "homepage": "https://github.com/timDeHof/Advent-of-Code-2022#readme"
+}
