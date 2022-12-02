@@ -16,10 +16,11 @@ const shapes = {
   Z: 3, // Scissors
 }
 const outcome = (elf, player) => {
+  // in a Draw
   if (elf === "A" && player === "X") return 3
   if (elf === "B" && player === "Y") return 3
   if (elf === "C" && player === "Z") return 3
-
+  // player wins
   if (elf === "A" && player === "Y") return 6
   if (elf === "B" && player === "Z") return 6
   if (elf === "C" && player === "X") return 6
