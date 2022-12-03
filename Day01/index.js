@@ -1,4 +1,4 @@
-import syncReadFile from "../Day02/utils"
+import syncReadFile from "../utils.js"
 
 let caloriesByElves = syncReadFile("./input.txt")
 let groupedElves = []
