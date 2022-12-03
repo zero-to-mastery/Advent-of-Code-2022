@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "<img src=\"/advent.png\" width=\"350\" align=\"right\" />",
   "main": "utils.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
