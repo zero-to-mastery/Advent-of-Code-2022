@@ -61,6 +61,7 @@ class CPU {
 
 const part1 = () => {
   const cpu = new CPU(program)
+  console.log(cpu)
   let sum = 0
   const totalCycles = 2 * cpu.program.length
 
@@ -118,5 +119,5 @@ const part2 = () => {
   crt.printScreen()
 }
 
-//part1()
-part2()
+part1()
+//part2()
